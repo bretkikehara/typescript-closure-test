@@ -1,0 +1,21 @@
+{
+  "name": "typescript-closure-test",
+  "version": "1.0.0",
+  "description": "Compiles Typescript using google closure",
+  "scripts": {
+    "build": "tsc -p src && webpack"
+  },
+  "author": "Bret K. Ikehara <bret.k.ikehara@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/md5": "^2.1.32",
+    "md5": "^2.2.1",
+    "webpack": "^3.6.0",
+    "webpack-closure-compiler": "^2.1.5"
+  },
+  "devDependencies": {
+    "google-closure-compiler": "git+https://github.com/gregmagolan/closure-compiler.git#20170919.angular.dist",
+    "source-map-explorer": "^1.5.0",
+    "typescript": "~2.4.2"
+  }
+}
